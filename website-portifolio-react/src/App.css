@@ -2,6 +2,11 @@
   font-family: 'heading-now-86-heavy';
   src: url(./fonts/HeadingNow-86Bold.ttf) format('truetype');
 }
+@font-face {
+  font-family: 'heading-now-74-regular';
+  src: url(./fonts/HeadingNow-74Regular.ttf) format('truetype');
+}
+
 
 html, body {
   margin: 0;
@@ -16,9 +21,9 @@ html, body {
 /* CSS referente a Homebar */
 .homebar-main {
   list-style-type: none;
-  font-family: 'heading-now-86-heavy';
+  font-family: 'heading-now-74-regular';
   display: flex;
-  padding: 20px 20px;
+  padding: 20px 25px;
   gap: 25px;
   justify-content: flex-end;
 }
@@ -33,6 +38,7 @@ html, body {
   border: 2px solid transparent;
   fill: white;
   user-select: none;
+  cursor: pointer;
   transition: background-color 0.2s, color 0.2s, box-shadow 0.5s, fill 0.2s;
 }
 
@@ -53,4 +59,12 @@ html, body {
   transform: translateY(3px);
   box-shadow: 0px 0px 0px 1px white;
   transition: transform 0.1s, box-shadow 0.1s;
+}
+
+.homebar-svg {
+  width: 30px;
+  height: 30px;
+}
+.homebar-SVG:hover {
+  fill: black;
 }
