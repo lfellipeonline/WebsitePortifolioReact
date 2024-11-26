@@ -11,25 +11,23 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color: #13274F;
-}
-
-.App {
-  background-color: #13274F;
+  background-image: url(./images/backgroundimage.png);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /* CSS referente a Homebar */
 .homebar-main {
   list-style-type: none;
   font-family: 'heading-now-74-regular';
-  display: flex;
   padding: 20px 25px;
-  gap: 25px;
-  justify-content: flex-end;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .homebar-item {
-  display: inline;
+  display: flex;
   font-size: 20px;
   color: rgb(255, 255, 255);
   text-decoration: none;
@@ -67,4 +65,55 @@ html, body {
 }
 .homebar-SVG:hover {
   fill: black;
+}
+
+.homebar-logo {
+  display: flex;
+  align-items: center;
+  
+}
+
+.homebar-items {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+/* TEMPORARIO -------------------- */
+
+#abaFlutuante{
+  position: absolute;
+  top: 100px;
+  left: 1613px;
+  width: 260px;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+  display: none;
+  padding-left: 15px;
+}
+.aba-flutuante-items{
+  font-family: 'heading-now-74-regular';
+  color: white;
+  list-style-type: none;
+  line-height: 45px;
+  padding: 0px;
+  width: 94.5%;
+}
+.aba-flutuante-items li{
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s, box-shadow 0.6s;
+  border-radius: 5px;
+  user-select: none;
+}
+.aba-flutuante-items li:hover{
+  background-color: #ffffff;
+  color: black;
+  box-shadow: 0px 0px 0px 4px white;
+  transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
+}
+.aba-flutuante-items li:active{
+  transform: translateY(2px);
+  box-shadow: 0px 0px 0px 2px white;
+  transition: transform 0.1s, box-shadow 0.1s;
 }
