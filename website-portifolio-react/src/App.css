@@ -11,19 +11,19 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-image: url(./images/backgroundimage.png);
-  background-size: cover;
-  background-attachment: fixed;
 }
 
 /* CSS referente a Homebar */
 .homebar-main {
   list-style-type: none;
   font-family: 'heading-now-74-regular';
-  padding: 20px 25px;
+  padding: 30px 25px;
+  padding-bottom: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 80%, rgba(0, 0, 0, 0.0) 100%);
+  margin: 0;
 }
 
 .homebar-item {
@@ -116,4 +116,16 @@ html, body {
   transform: translateY(2px);
   box-shadow: 0px 0px 0px 2px white;
   transition: transform 0.1s, box-shadow 0.1s;
+}
+/* Background Image */
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url(./images/backgroundimage.png);
+  background-size: cover;
+
 }
