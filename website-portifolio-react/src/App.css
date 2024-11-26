@@ -17,7 +17,7 @@ html, body {
 .homebar-main {
   list-style-type: none;
   font-family: 'heading-now-74-regular';
-  padding: 30px 25px;
+  padding: 30px 50px;
   padding-bottom: 50px;
   display: flex;
   justify-content: space-between;
