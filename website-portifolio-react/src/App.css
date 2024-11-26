@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'heading-now-86-heavy';
+  src: url(./fonts/HeadingNow-86Bold.ttf) format('truetype');
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #13274F;
+}
+
+.App {
+  background-color: #13274F;
+}
+
+/* CSS referente a Homebar */
+.homebar-main {
+  list-style-type: none;
+  font-family: 'heading-now-86-heavy';
+  display: flex;
+  padding: 20px 20px;
+  gap: 25px;
+  justify-content: flex-end;
+}
+
+.homebar-item {
+  display: inline;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 15px;
+  border: 2px solid transparent;
+  fill: white;
+  user-select: none;
+  transition: background-color 0.2s, color 0.2s, box-shadow 0.5s, fill 0.2s;
+}
+
+.homebar-item:hover{
+  background-color: white;
+  color: black;
+  fill: black;
+  box-shadow: 0px 0px 0px 4px white;
+  transition: background-color 0.2s, color 0.2s, box-shadow 0.2s, fill 0.2s;
+}
+
+.homebar-item a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.homebar-item:active{
+  transform: translateY(3px);
+  box-shadow: 0px 0px 0px 1px white;
+  transition: transform 0.1s, box-shadow 0.1s;
+}
