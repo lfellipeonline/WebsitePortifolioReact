@@ -1,7 +1,5 @@
 import './App.css';
-import BackgroundImageComponent from './components/BackgroundImageComponent';
 import HomebarComponent from './components/HomebarComponent';
-import DefaultButtonComponent from './components/DefaultButtonComponent';
 import MainTitleComponent from './components/MainTitleComponent';
 
 function App() {
