@@ -6,6 +6,10 @@
   font-family: 'heading-now-74-regular';
   src: url(./fonts/HeadingNow-74Regular.ttf) format('truetype');
 }
+@font-face {
+  font-family: 'heading-now-86-heavy-italic';
+  src: url(./fonts/HeadingNow-86BoldItalic.ttf) format('truetype');
+}
 
 
 html, body {
@@ -83,14 +87,15 @@ html, body {
 
 #abaFlutuante{
   position: absolute;
-  top: 100px;
-  left: 1613px;
-  width: 260px;
-  background: rgba(0, 0, 0, 0.8);
-  backdrop-filter: blur(5px);
-  border-radius: 15px;
-  display: none;
-  padding-left: 15px;
+    top: 100px;
+    right: 0;
+    width: 260px;
+    margin-right: 45px;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    display: none;
+    padding-left: 15px;
 }
 .aba-flutuante-items{
   font-family: 'heading-now-74-regular';
@@ -135,8 +140,8 @@ html, body {
   font-family: 'heading-now-86-heavy';
   font-size: 20px;
   color: white;
-  background-color: rgba(0, 0, 0, 0.8);
-  border: 5px solid rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 5px solid rgba(0, 0, 0, 0.0);
   backdrop-filter: blur(5px);
   border-radius: 15px;
   padding: 10px 20px;
