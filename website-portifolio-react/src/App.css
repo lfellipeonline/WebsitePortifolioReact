@@ -83,6 +83,11 @@ html, body {
   align-items: center;
 }
 
+#homebarInicio {
+  background-color: white;
+  color: black;
+}
+
 /* TEMPORARIO -------------------- */
 
 #abaFlutuante{
